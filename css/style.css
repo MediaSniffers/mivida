@@ -10398,6 +10398,9 @@ img{
  .no-margin {
 	 margin: 0 !important;
  }
+.no-padding {
+	padding: 0 !important;
+}
 
  .black-white-bg {
 	 filter: grayscale(100%);
@@ -10489,7 +10492,9 @@ img{
 	background-repeat: no-repeat;
 	background-color: aqua
 }
-
+.padded-image {
+	padding: 2px
+}
 
 /* Hassan's CSS */
 .section-content-WhoWeAre {
