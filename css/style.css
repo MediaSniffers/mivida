@@ -10511,10 +10511,10 @@ img{
 }
 
 .fixed-bg {
-	background-size: contain;
+	background-size: cover;
 	background-attachment: inherit;
 	background-repeat: no-repeat;
-	background-color: aqua
+	background-position-y: 22%;
 }
 .padded-image {
 	padding: 2px
