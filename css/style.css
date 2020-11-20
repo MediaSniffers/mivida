@@ -10505,6 +10505,9 @@ img{
 	.no-padding_M {
 		padding: 0
 	}
+	.mobile-padding {
+		padding-top: 120px;
+	}
 }
 
 .fixed-bg {
