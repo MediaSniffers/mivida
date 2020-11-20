@@ -186,6 +186,10 @@ p{
 
 }
 
+.huge-container {
+	max-width: 1500px !important;
+}
+
 .auto-container{
 	position:static;
 	max-width:1200px;
