@@ -10496,6 +10496,14 @@ img{
 .masterplan-divider {
 	margin-top: 30px;
 }
+@media screen and (max-width: 1200px) {
+	.no-margin_M {
+		margin: 0 !important;
+	}
+	.no-padding_M {
+		padding: 0
+	}
+}
 
 .fixed-bg {
 	background-size: contain;
