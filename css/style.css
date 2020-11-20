@@ -10411,11 +10411,14 @@ img{
 }
 .page-title-masterplan {
 	text-align: center;
-	height: 730px;
+	height: 800px;
 	padding: 317px 0px;
 }
 .page-title-masterplan .content {
 	padding-left: 0;
+}
+.master-plan-stories {
+	padding-top: 50px;
 }
 .master-plan-stories .inner-column {
 	margin-right: 0 !important;
@@ -10494,6 +10497,9 @@ img{
 }
 .padded-image {
 	padding: 2px
+}
+.page-title-masterplan {
+	background-size: cover;
 }
 
 /* Hassan's CSS */
