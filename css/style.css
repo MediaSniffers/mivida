@@ -10505,8 +10505,8 @@ img{
 	.no-padding_M {
 		padding: 0
 	}
-	.mobile-padding {
-		padding-top: 120px;
+	.mobile-margin {
+		margin-top: 120px;
 	}
 }
 
