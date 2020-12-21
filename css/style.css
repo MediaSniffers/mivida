@@ -10564,7 +10564,24 @@ img{
 	border-radius: 20px;
 }
 
+/* Momina */
 .ecotext{
 	text-align:center;
     color: #ffffff;
+	background: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
 }
+
+.popup-btn {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+}
+  
