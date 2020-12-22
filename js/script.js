@@ -666,6 +666,8 @@
 
 })(window.jQuery);
 
+
+/* Momina */
 function openForm() {
 	document.getElementById("bookingForm").style.display = "block";
 }
@@ -673,3 +675,9 @@ function openForm() {
 function closeForm() {
 	document.getElementById("bookingForm").style.display = "none";
 }
+
+$(".right-corder-container-button").hover(function() {
+    $(".long-text").addClass("show-long-text");   
+}, function () {
+    $(".long-text").removeClass("show-long-text");
+});
