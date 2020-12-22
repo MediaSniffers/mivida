@@ -676,8 +676,13 @@ function closeForm() {
 	document.getElementById("bookingForm").style.display = "none";
 }
 
-$(".right-corder-container-button").hover(function() {
-    $(".long-text").addClass("show-long-text");   
-}, function () {
-    $(".long-text").removeClass("show-long-text");
-});
+// $(".right-corder-container-button").hover(function() {
+//     $(".long-text").addClass("show-long-text");   
+// }, function () {
+//     $(".long-text").removeClass("show-long-text");
+// });
+
+function myFunction() {
+	var popup = document.getElementById("myPopup");
+	popup.classList.toggle("show");
+  }
