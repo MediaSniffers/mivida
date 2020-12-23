@@ -668,15 +668,9 @@
 
 
 /* Momina */
-function openForm() {
-	document.getElementById("bookingForm").style.display = "block";
-}
-  
-function closeForm() {
-	document.getElementById("bookingForm").style.display = "none";
-}
-
-function myFunction() {
+function toggleForm() {
 	var popup = document.getElementById("myPopup");
 	popup.classList.toggle("show");
-  }
+	document.getElementById("popup").style.display = document.getElementById("popup").style.display === "block" ? "none" : "block";
+	console.log(document.getElementById("popup").style.display);
+}
