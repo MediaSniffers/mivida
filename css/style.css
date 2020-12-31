@@ -10590,15 +10590,14 @@ img{
 .popup {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 100; /* Sit on top */
+	z-index: 1000; /* Sit on top */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-	margin-top: 70px;
+	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
   }
 
   /* The actual popup */
@@ -10608,12 +10607,10 @@ img{
 	color: #fff;
 	font-size: 17px;
 	text-align: center;
-	border-radius: 6px;
 	position: absolute;
 	z-index: 1;
 	left: 35%;
-	border:1px solid #222222;
-
+	top: 5%
   }
 
   /* Popup arrow */
