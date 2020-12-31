@@ -6,7 +6,7 @@ Project:    Intenax - HTML Template
 Version:    1
 Last Change:    25/4/2019
 Primary Use:    Architecture and Renovation
-
+main-herobanner
 ------------------------------------------
 
 [Table of contents]
@@ -10304,6 +10304,7 @@ img{
     bottom: 0px;
 	z-index: 2;
 	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
 }
 .main-herobanner .auto-container {
 	z-index: 3;
@@ -10599,7 +10600,7 @@ img{
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 	margin-top: 70px;
   }
-  
+
   /* The actual popup */
   .popup .popuptext {
 	visibility: hidden;
@@ -10614,7 +10615,7 @@ img{
 	border:1px solid #222222;
 
   }
-  
+
   /* Popup arrow */
   .popup .popuptext::after {
 	content: "";
@@ -10626,20 +10627,20 @@ img{
 	border-style: solid;
 	border-color: #555 transparent transparent transparent;
   }
-  
+
   /* Toggle this class - hide and show the popup */
   .popup .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;
   }
-  
+
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
-	from {opacity: 0;} 
+	from {opacity: 0;}
 	to {opacity: 1;}
   }
-  
+
   @keyframes fadeIn {
 	from {opacity: 0;}
 	to {opacity:1 ;}
